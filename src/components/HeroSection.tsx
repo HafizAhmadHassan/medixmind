@@ -2,9 +2,11 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "next-intl";
+type HeroSectionProps = {
+  lang: Locale;
+};
 
-
-export default function HeroSection() {
+export default function HeroSection({ lang }: HeroSectionProps) {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 relative overflow-hidden flex flex-col items-center">
       {/* Background blobs */}
