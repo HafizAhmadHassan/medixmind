@@ -16,9 +16,9 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <Link href="/" className="flex justify-center items-center">
               <img
-                src={"/img/ghostbyte_logo_white.svg"}
+                src={"/img/medixmind_logo.png"}
                 className="h-8"
-                alt="Ghostbyte logo"
+                alt="medixmind logo"
               />
               <span className="font-bold text-2xl ml-2">Ghostbyte</span>
             </Link>
