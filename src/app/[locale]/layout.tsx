@@ -69,11 +69,11 @@ export async function generateMetadata({
   const t = await getTranslations({ namespace: "Meta", locale: locale });
 
   return {
-    title: t("title"),
+    title: "Medixmind",
     description: t("description"),
     icons: [
-      { rel: "icon", url: "/favicon.ico" },
-      { rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },
+      { rel: "icon", url: "/medixmind_logo.png" },
+      { rel: "icon", type: "image/png", url: "medixmind_logo.png" },
     ],
     alternates: {
       canonical: `https://ghostbyte.dev${locale === "de" ? "/de" : ""}`,
