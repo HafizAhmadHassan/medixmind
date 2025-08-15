@@ -20,7 +20,7 @@ export default function Navbar() {
                 className="h-8"
                 alt="medixmind logo"
               />
-              <span className="font-bold text-2xl ml-2">Ghostbyte</span>
+              <span className="font-bold text-2xl ml-2">Medixmind</span>
             </Link>
           </div>
 
