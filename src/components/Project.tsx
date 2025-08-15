@@ -35,7 +35,7 @@ export default function Project({
           <div className="absolute inset-0 z-10" />
           <Image
             src={image}
-            alt="Pixelix App"
+            alt={name}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-110"
           />
@@ -47,16 +47,14 @@ export default function Project({
               width={40}
               height={40}
               className="w-12 h-12 rounded-xl"
-              alt=""
+              alt={`${name} logo`}
             />
             <div>
               <h3 className="mt-2 text-xl font-bold">{name}</h3>
               <p className="text-sm mb-2 text-white/80">{category}</p>
             </div>
           </div>
-
           <p className="text-sm">{description}</p>
-          <div className="mt-4 flex justify-end"></div>
         </div>
       </div>
     </Link>

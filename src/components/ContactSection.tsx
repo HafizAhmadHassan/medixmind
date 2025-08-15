@@ -113,10 +113,10 @@ export default function ContactSection() {
                 <div className="text-center text-sm text-gray-400">
                   {t("mail_directly")}{" "}
                   <Link
-                    href="mailto:hey@ghostbyte.com"
+                    href="mailto:ahmadhassan061@gmail.com"
                     className="text-purple-400 hover:text-cyan-400 transition-colors"
                   >
-                    hey@ghostbyte.com
+                    ahmadhassan061@gmail.com
                   </Link>
                 </div>
               </div>
