@@ -1,4 +1,5 @@
 # MedixMind
+*Created: 2025-08-15*
 
 A **Next.js** web application deployed on Vercel, centered around a medical / wellness theme.
 
